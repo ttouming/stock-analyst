@@ -1,7 +1,7 @@
 # Stock Analyst
 ## Description
 
-This web app provides smoothly operated basic functions for users to have a quick glimpse of the stock market and some basic features to analyze the stock market data by using React and FMP api. The app use Reactstrap and css for styling.
+This web app provides smoothly operated basic functions for users to have a quick glimpse of the stock market and some basic features to analyze the stock market data by using React and FMP api(You need to apply for FMP api key for usign the app). The app use Reactstrap and css for styling.
 Moreover, the app has its own filter logic rather than using ag-grid build in filters for symbol search and sector filter in Stock page, and the search feature can dynamically show searching data without hitting a button. Also, the app use a React Datepicker for user to pick a date, and the app has some modifications to make it as a button which don’t allow users to input text manually for reducing user errors.
 
 ![image](https://user-images.githubusercontent.com/115144351/203473428-cacf6f67-9ed0-4970-a766-387f522eb987.png)
