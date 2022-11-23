@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navlink {
+  display: flex;
+  justify-content: space-evenly;
+  word-spacing: 10px;
+}
+
+.stockSearchBar {
+  padding: 20px;
+}
+/*search bar padding*/
+
+.navbarColor {
+  color: rgb(57, 57, 57);
+}
+.coloraa {
+  background-color: #00f7ff;
+}
+
+.datePickerButton {
+  background-color: white;
+}
+/*datepicker white*/
+.resetDateButton {
+  color: white;
+  background-color: #008cba;
+}
+/*
+margin-left: 10px;
+history reset date button blue
+*/
+
+.imgStyle {
+  float: "right";
+}
+.companySymbol {
+  color: rgb(0, 132, 255);
+}
+.navbarpadding {
+  margin-right: 10px;
+  font-family: Didot;
+}
+/*navbar padding*/
+
+.marginToNav {
+  margin-top: 10px;
+}
+
+.marginHistoryChart {
+  margin-top: 10px;
+}
+
+.pageColor {
+  background-color: darkgrey;
+}
+
+.chartColor {
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+#doc3 {
+  margin: auto;
+  width: auto;
+  height: 1200px;
+  background-color: rgb(49, 49, 49);
+}
+/*page color*/
+
+.fontStyle1 {
+  font-family: Didot;
+}
+p {
+  font-family: Didot;
+}
+
+h1 {
+  font-family: Didot;
+}
+
+h2 {
+  font-family: Didot;
+}
+
+.textColor {
+  color: antiquewhite;
+}
+
+.customizeInput::placeholder {
+  font-family: Didot;
+}
+/*place holder font*/
+
+.linkPadding {
+  padding-top: 50px;
+}
+
+.wordPadding {
+  padding-top: 20px;
+}
+
+.bigPadding {
+  padding-top: 80px;
+}
+
+.videoBorder {
+  border-style: solid;
+  border-width: medium;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.active {
+  background-color: #04aa6d;
+}
